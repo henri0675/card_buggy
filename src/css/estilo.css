@@ -1,0 +1,75 @@
+/* Fundo */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #004d00, #008000);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Cartão central */
+.cartao {
+  background: rgb(214, 211, 211);
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+  max-width: 500px;
+  text-align: center;
+}
+
+/* Título */
+h1 {
+  color: #004d00;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+h1 span {
+  color: #00cc00;
+}
+
+/* Texto */
+p {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+/* Imagem */
+img {
+  width: 100%;
+  border-radius: 12px;
+  margin: 20px 0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* Botão */
+button {
+  background: #25d366;
+  color: white;
+  padding: 14px 22px;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: bold;
+}
+button:hover {
+  background: #1ebc57;
+  transform: scale(1.05);
+}
+
+/* Rodapé */
+footer {
+  margin-top: 20px;
+  font-size: 13px;
+  color: #555;
+}
+
+strong{
+    color: #004d00;
+}
